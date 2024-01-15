@@ -1,10 +1,7 @@
 # The Not Official XmlRiver PHP SDK
 
 [![Test Suite](https://github.com/MarkelovSergey/xmlriver/actions/workflows/tests.yml/badge.svg)](https://github.com/MarkelovSergey/xmlriver/actions/workflows/tests.yml)
-
 [![Tests Code Style](https://img.shields.io/github/actions/workflow/status/MarkelovSergey/xmlriver/lint.yml?branch=main&label=Code%20Style&style=flat-square)](https://github.com/MarkelovSergey/xmlriver/actions?query=workflow%3Alint+branch%3Amain)
-
-A package to use the xmlriver API from the [Google API](https://xmlriver.com/apidoc/api-about/) and [Yandex API](https://xmlriver.com/apiydoc/apiy-about/).
 
 ## Installation
 

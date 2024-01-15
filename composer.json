@@ -1,0 +1,38 @@
+{
+    "name": "ke/xmlriver",
+    "description": "XmlRiver SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ke\\XmlRiver\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Markelov",
+            "email": "markelo.v@ya.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "saloonphp/saloon": "^3.4",
+        "saloonphp/xml-wrangler": "^1.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.31",
+        "laravel/pint": "^1.13",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "lint": "./vendor/bin/pint src",
+        "test": "./vendor/bin/pest",
+        "test:types": "./vendor/bin/phpstan analyse --error-format=github"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

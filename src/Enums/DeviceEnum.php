@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\Enums;
+namespace MarkelovSergey\XmlRiver\Enums;
 
 enum DeviceEnum: string
 {

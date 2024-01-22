@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\Interfaces;
+namespace MarkelovSergey\XmlRiver\Interfaces;
 
 interface QueryBuilderInterface
 {

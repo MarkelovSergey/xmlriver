@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\QueryBuilders;
+namespace MarkelovSergey\XmlRiver\QueryBuilders;
 
 class YandexQueryBuilder extends BaseQueryBuilder
 {

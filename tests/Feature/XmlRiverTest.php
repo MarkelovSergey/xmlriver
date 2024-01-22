@@ -1,11 +1,11 @@
 <?php
 
-use Ke\XmlRiver\Enums\GroupByEnum;
-use Ke\XmlRiver\QueryBuilders\GoogleQueryBuilder;
-use Ke\XmlRiver\QueryBuilders\YandexQueryBuilder;
-use Ke\XmlRiver\Requests\GoogleRequest;
-use Ke\XmlRiver\Requests\YandexRequest;
-use Ke\XmlRiver\XmlRiver;
+use MarkelovSergey\XmlRiver\Enums\GroupByEnum;
+use MarkelovSergey\XmlRiver\QueryBuilders\GoogleQueryBuilder;
+use MarkelovSergey\XmlRiver\QueryBuilders\YandexQueryBuilder;
+use MarkelovSergey\XmlRiver\Requests\GoogleRequest;
+use MarkelovSergey\XmlRiver\Requests\YandexRequest;
+use MarkelovSergey\XmlRiver\XmlRiver;
 use Saloon\Config;
 use Saloon\Http\Faking\MockClient;
 use Saloon\Http\Faking\MockResponse;
@@ -38,7 +38,7 @@ test('it can get google response', function () {
     $googleQueryBuilder
         ->query('keyassort')
         ->groupBy(GroupByEnum::TEN);
-        
+
     $response = $this->xmlRiver->getResponse($googleQueryBuilder);
 
     $data = $response->dto()->data();
@@ -55,7 +55,7 @@ test('it can get yandex response', function () {
     $yandexQueryBuilder = new YandexQueryBuilder();
 
     $yandexQueryBuilder->query('keyassort');
-        
+
     $response = $this->xmlRiver->getResponse($yandexQueryBuilder);
 
     $data = $response->dto()->data();

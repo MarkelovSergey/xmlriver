@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\Requests;
+namespace MarkelovSergey\XmlRiver\Requests;
 
 class YandexRequest extends AbstractRequest
 {

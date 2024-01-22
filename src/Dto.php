@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver;
+namespace MarkelovSergey\XmlRiver;
 
-use Ke\XmlRiver\Entities\SearchResultItem;
+use MarkelovSergey\XmlRiver\Entities\SearchResultItem;
 
 class Dto
 {

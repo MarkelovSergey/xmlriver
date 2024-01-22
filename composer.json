@@ -1,16 +1,16 @@
 {
-  "name": "ke/xmlriver",
+  "name": "markelovsergey/xmlriver",
   "description": "XmlRiver SDK",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Ke\\XmlRiver\\": "src/"
+      "MarkelovSergey\\XmlRiver\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ke\\XmlRiver\\Test\\": "tests/"
+      "MarkelovSergey\\XmlRiver\\Test\\": "tests/"
     }
   },
   "authors": [

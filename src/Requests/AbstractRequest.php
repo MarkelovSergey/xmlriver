@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\Requests;
+namespace MarkelovSergey\XmlRiver\Requests;
 
-use Ke\XmlRiver\Dto;
+use MarkelovSergey\XmlRiver\Dto;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Http\Response;

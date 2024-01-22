@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver;
+namespace MarkelovSergey\XmlRiver;
 
-use Ke\XmlRiver\Entities\OnelineSitelink;
-use Ke\XmlRiver\Entities\SearchResultItem;
+use MarkelovSergey\XmlRiver\Entities\OnelineSitelink;
+use MarkelovSergey\XmlRiver\Entities\SearchResultItem;
 
 class DataProcessor
 {
@@ -24,8 +24,8 @@ class DataProcessor
             contentType: $item['doc']['contenttype'],
             passages: $item['doc']['passages'] ? array_values($item['doc']['passages']) : null,
             onelineSitelinks: isset($item['doc']['oneline_sitelinks']['sitelink'])
-                ? $this->parsOnelineSitelinks($item['doc']['oneline_sitelinks']['sitelink'])
-                : null,
+            ? $this->parsOnelineSitelinks($item['doc']['oneline_sitelinks']['sitelink'])
+            : null,
         );
     }
 

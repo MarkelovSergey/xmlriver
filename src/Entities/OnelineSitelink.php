@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\Entities;
+namespace MarkelovSergey\XmlRiver\Entities;
 
 class OnelineSitelink
 {

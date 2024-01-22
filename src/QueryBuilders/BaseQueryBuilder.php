@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\QueryBuilders;
+namespace MarkelovSergey\XmlRiver\QueryBuilders;
 
-use Ke\XmlRiver\Enums\DeviceEnum;
-use Ke\XmlRiver\Enums\OsEnum;
-use Ke\XmlRiver\Interfaces\QueryBuilderInterface;
+use MarkelovSergey\XmlRiver\Enums\DeviceEnum;
+use MarkelovSergey\XmlRiver\Enums\OsEnum;
+use MarkelovSergey\XmlRiver\Interfaces\QueryBuilderInterface;
 
 class BaseQueryBuilder implements QueryBuilderInterface
 {

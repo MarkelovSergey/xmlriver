@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver;
+namespace MarkelovSergey\XmlRiver;
 
-use Ke\XmlRiver\Interfaces\QueryBuilderInterface;
-use Ke\XmlRiver\QueryBuilders\GoogleQueryBuilder;
-use Ke\XmlRiver\QueryBuilders\YandexQueryBuilder;
-use Ke\XmlRiver\Requests\GoogleRequest;
-use Ke\XmlRiver\Requests\YandexRequest;
+use MarkelovSergey\XmlRiver\Interfaces\QueryBuilderInterface;
+use MarkelovSergey\XmlRiver\QueryBuilders\GoogleQueryBuilder;
+use MarkelovSergey\XmlRiver\QueryBuilders\YandexQueryBuilder;
+use MarkelovSergey\XmlRiver\Requests\GoogleRequest;
+use MarkelovSergey\XmlRiver\Requests\YandexRequest;
 use Saloon\Http\Connector;
 use Saloon\Http\Response;
 

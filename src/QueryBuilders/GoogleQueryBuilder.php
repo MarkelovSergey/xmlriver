@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ke\XmlRiver\QueryBuilders;
+namespace MarkelovSergey\XmlRiver\QueryBuilders;
 
-use Ke\XmlRiver\Enums\GroupByEnum;
-use Ke\XmlRiver\Enums\TbsEnum;
+use MarkelovSergey\XmlRiver\Enums\GroupByEnum;
+use MarkelovSergey\XmlRiver\Enums\TbsEnum;
 
 class GoogleQueryBuilder extends BaseQueryBuilder
 {
@@ -19,7 +19,7 @@ class GoogleQueryBuilder extends BaseQueryBuilder
     public function tbs(TbsEnum $tbs, ?string $customRange = null): static
     {
         if ($tbs === TbsEnum::CUSTOM_DATE_RANGE) {
-            $this->queryParams['tbs'] = $tbs->value.','.$customRange;
+            $this->queryParams['tbs'] = $tbs->value . ',' . $customRange;
 
             return $this;
         }

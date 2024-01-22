@@ -8,17 +8,17 @@
 You can install the package via composer:
 
 ```bash
-composer require ke/xmlriver
+composer require markelovsergey/xmlriver
 ```
 
 ## Usage
 
 ```php
-$googleQueryBuilder = new \Ke\XmlRiver\QueryBuilders\GoogleQueryBuilder();
+$googleQueryBuilder = new \MarkelovSergey\XmlRiver\QueryBuilders\GoogleQueryBuilder();
 
 $googleQueryBuilder->query('keyassort');
 
-$xmlRiver = new \Ke\XmlRiver\XmlRiver(USER_ID, KEY);
+$xmlRiver = new \MarkelovSergey\XmlRiver\XmlRiver(USER_ID, KEY);
 
 $response = $xmlRiver->getResponse($googleQueryBuilder);
 
